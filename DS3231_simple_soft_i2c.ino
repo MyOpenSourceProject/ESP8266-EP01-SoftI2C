@@ -32,9 +32,10 @@
 #include "Eeprom24C32_64.h"
 
 
-#define SOFT_SDA  0
+#define SOFT_SDA  0			
 #define SOFT_SCL  2
 #define EEPROM_ADDRESS 0x57
+#define LCD_ADDRESS 0x27
 
 #if defined(ARDUINO) && ARDUINO >= 100
 #define printByte(args)  write(args);
@@ -44,7 +45,7 @@
 
 Eeprom24C32_64 eeprom(EEPROM_ADDRESS);
 DS3231 clk;
-LiquidCrystal_I2C lcd(0x27,20,4);
+LiquidCrystal_I2C lcd(LCD_ADDRESS,20 ,4);
 RTCDateTime dt, ist_dt;
 
 char ssid[] = "***********"; // SSID
