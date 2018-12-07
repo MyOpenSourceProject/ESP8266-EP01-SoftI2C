@@ -1,5 +1,5 @@
 /************************************************************************
-*   Water Level COntroller using Atmega328P
+*   ESP8266 Software I2C LCD RTC EEPROM with NTP RTC Time updating
 *   File:   main.c
 *   Author:  Jithin Krishnan.K
 *       Rev. 0.0.1 : 12/11/2018 :  08:26 PM
