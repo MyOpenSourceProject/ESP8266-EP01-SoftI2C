@@ -47,8 +47,8 @@ DS3231 clk;
 LiquidCrystal_I2C lcd(0x27,20,4);
 RTCDateTime dt, ist_dt;
 
-char ssid[] = "TP-LINK_DA830E";
-char pass[] = "strongpassword";
+char ssid[] = "***********"; // SSID
+char pass[] = "***********"; // Wifi Password
 unsigned int localPort = 2390;
 
 IPAddress timeServerIP; 
